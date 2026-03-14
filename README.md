@@ -12,7 +12,7 @@ A simple console-based Blackjack game.
 
   * **Hit** – request another card
   * **Stand** – stop drawing cards
-* The player can continue drawing cards (**Hit**) until the total exceeds 21 points.
+* The player can continue drawing cards (Hit) until the total exceeds 21 points.
 * When the player stops drawing cards, the dealer plays automatically.
 * The dealer continues drawing cards until the game result can be determined.
 
