@@ -94,14 +94,14 @@ Represents a Blackjack player.
 
 ### BJackDealer 
 
-inherits from BJackPlayer
+Inherits from BJackPlayer
 
 **Responsibilities:**
 
 * Manage one or multiple decks of cards
 * Deal cards to player and dealer
 * Shuffle cards when necessary
-* Determine game results**
+* Determine game results
 
 ---
 
