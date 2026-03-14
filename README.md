@@ -135,7 +135,7 @@ Provides a simple text-based menu interface for user interaction.
 
 ## Compile and Run
 
-Compile the program using the provided Makefile:
+Compile the program:
 
 ```bash
 make
