@@ -92,7 +92,9 @@ Represents a Blackjack player.
 
 ---
 
-### BJackDealer (inherits from BJackPlayer)
+### BJackDealer 
+
+inherits from BJackPlayer
 
 **Responsibilities:**
 
