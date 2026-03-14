@@ -133,7 +133,7 @@ Provides a simple text-based menu interface for user interaction.
 
 ---
 
-## Build & Run
+## Compile and Run
 
 Compile the program using the provided Makefile:
 
@@ -150,5 +150,5 @@ Run the program:
 Optional arguments:
 
 ```bash
-./BlackJack [random_seed] [number_of_decks]
+./BJ [random_seed] [number_of_decks]
 ```
