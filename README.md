@@ -144,7 +144,7 @@ make
 Run the program:
 
 ```bash
-./BlackJack
+./BJ
 ```
 
 Optional arguments:
