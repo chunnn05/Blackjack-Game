@@ -105,7 +105,6 @@ BJackDealer::start(void) {
 void 
 BJackDealer::shuffle(void) {
 	deck.clear();
-	// 初始化卡牌
 	for (int i = 0; i < numDecks; ++i) {
 		for (int j = 0; j < kMaxNCards; ++j) {
 			deck.push_back(Card(j));
@@ -113,7 +112,6 @@ BJackDealer::shuffle(void) {
 	}
 
 
-	// Fisher-Yates 洗牌算法
 	for (int i = 51; i > 0; i--) {
 		int j = rand() % (i + 1);
 		swap(deck[i], deck[j]);
