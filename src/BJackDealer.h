@@ -97,10 +97,10 @@ class BJackDealer : public BJackPlayer{
 	private:
 
 		// TODO: your private or internal stuff goes here ...
-		std::vector<Card> deck;  // 儲存所有的牌
-		std::vector<Card> usedCards;  // 存放已用過的牌
-		int numDecks;  // 牌組數量
-		size_t cardIndex;  // 當前發到哪張牌
+		std::vector<Card> deck;  
+		std::vector<Card> usedCards;  
+		int numDecks;  
+		size_t cardIndex;  
 
 };
 
