@@ -10,9 +10,9 @@ A simple console-based Blackjack game.
 * The dealer's first card is face down.
 * The player may choose to:
 
-  * **Hit** – request another card
-  * **Stand** – stop drawing cards
-* The player can continue drawing cards (Hit) until the total exceeds 21 points.
+  * **One more card (Hit)** – request another card
+  * **Enough (Stand)** – stop drawing cards
+* The player can continue drawing cards until the total exceeds 21 points.
 * When the player stops drawing cards, the dealer plays automatically.
 * The dealer continues drawing cards until the game result can be determined.
 
@@ -121,6 +121,11 @@ Controls the entire game process.
 ### ConsoleMenu
 
 Provides a simple text-based menu interface for user interaction.
+- **1. One more card** – Draw an additional card.
+- **2. Enough** – Stop drawing cards and let the dealer play.
+- **3. Restart** – Start a new round.  
+  ⚠️ The player must select this option at the beginning of each round.
+- **4. Quit** – Exit the program.
 
 ---
 
